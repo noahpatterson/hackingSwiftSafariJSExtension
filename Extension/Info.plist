@@ -22,10 +22,10 @@
 	<string>1</string>
 	<key>NSExtension</key>
 	<dict>
-		<key>NSExtensionJavaScriptPreprocessingFile</key>
-		<string>Action</string>
 		<key>NSExtensionAttributes</key>
 		<dict>
+			<key>NSExtensionJavaScriptPreprocessingFile</key>
+			<string>Action</string>
 			<key>NSExtensionActivationRule</key>
 			<dict>
 				<key>NSExtensionActivationSupportsWebPageWithMaxCount</key>

@@ -24,6 +24,9 @@ class ActionViewController: UIViewController {
                     // ask for the dict provided by the itemProvider and any errors if they occured
                     [unowned self] (dict, error) in
                     //do stuff
+                    let itemDictionary = dict as! NSDictionary
+                    let javascriptValues = itemDictionary[NSExtensionJavaScriptPreprocessingResultsKey] as! NSDictionary
+                    print(javascriptValues)
                 }
             }
         }
