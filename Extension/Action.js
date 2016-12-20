@@ -7,7 +7,8 @@ Action.prototype = {
   },
 
   finalize: function(parameters) {
-
+      var customJavascript = parameters["customJavascript"];
+      eval(customJavascript);
   }
     
 };
