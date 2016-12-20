@@ -10,6 +10,7 @@
 		5A3514A81E09A2E0002EC3F2 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3514A71E09A2E0002EC3F2 /* ActionViewController.swift */; };
 		5A3514AB1E09A2E0002EC3F2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3514A91E09A2E0002EC3F2 /* MainInterface.storyboard */; };
 		5A3514AF1E09A2E0002EC3F2 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A3514A51E09A2E0002EC3F2 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A3514B51E09A6D7002EC3F2 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A3514B41E09A6D7002EC3F2 /* Action.js */; };
 		5A6AA38E1E099E270081AB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AA38D1E099E270081AB1C /* AppDelegate.swift */; };
 		5A6AA3901E099E270081AB1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AA38F1E099E270081AB1C /* ViewController.swift */; };
 		5A6AA3931E099E270081AB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AA3911E099E270081AB1C /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		5A3514A71E09A2E0002EC3F2 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		5A3514AA1E09A2E0002EC3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		5A3514AC1E09A2E0002EC3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3514B41E09A6D7002EC3F2 /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 		5A6AA38A1E099E270081AB1C /* SafariJavaScriptInjection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariJavaScriptInjection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6AA38D1E099E270081AB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A6AA38F1E099E270081AB1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				5A3514A71E09A2E0002EC3F2 /* ActionViewController.swift */,
 				5A3514A91E09A2E0002EC3F2 /* MainInterface.storyboard */,
 				5A3514AC1E09A2E0002EC3F2 /* Info.plist */,
+				5A3514B41E09A6D7002EC3F2 /* Action.js */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3514B51E09A6D7002EC3F2 /* Action.js in Resources */,
 				5A3514AB1E09A2E0002EC3F2 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
